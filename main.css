@@ -4191,7 +4191,7 @@ code {
     --font-code: var(--code-font);
     --focus-primary: var(--focus-color);
     --main-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
-    --hover-color: #1e63b3;
+    --hover-color: linear-gradient(90deg,rgba(197, 249, 215, 1) 0%, rgba(247, 212, 134, 1) 50%, rgba(242, 122, 125, 1) 100%);
     --success-color: #43b581;
     --warning-color: #fff;
     --danger-color: #982929;

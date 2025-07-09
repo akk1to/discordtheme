@@ -58,7 +58,7 @@
 
 /*! ClearVision v7.0.1 by ClearVision Team */
 .button__201d5 {
-    border-radius: 4px
+    border-radius: 2px
 }
 
 .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5) {
@@ -4190,8 +4190,8 @@ code {
     --font-display: var(--main-font);
     --font-code: var(--code-font);
     --focus-primary: var(--focus-color);
-    --main-color: #2780e6;
-    --hover-color: #1e63b3;
+    --main-color: #ffffff;
+    --hover-color: #1acaff;
     --success-color: #43b581;
     --warning-color: #fff;
     --danger-color: #982929;

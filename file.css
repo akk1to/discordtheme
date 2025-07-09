@@ -1,20 +1,20 @@
 /**
- * @name ClearVision V7 for BetterDiscord
- * @author ClearVision Team
- * @version 7.0.1
+ * @name KannaDiscord Theme
+ * @author Kanna Kamui
+ * @version 1.0.0
  * @description Highly customizable theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v7
+ * @source https://github.com/akk1to/discordtheme
  * @website https://clearvision.github.io
  * @invite dHaSxn3
  */
 /* IMPORT CSS */
 @import url("https://raw.githubusercontent.com/akk1to/discordtheme/refs/heads/main/main.css");
-@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+@import url("https://raw.githubusercontent.com/akk1to/discordtheme/refs/heads/main/betterdiscord.css");
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #ffffff;
-  --hover-color: #1acaff;
+  --main-color: linear-gradient(90deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  --hover-color: #f7d486;
   --success-color: #43b581; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
   --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
   /* STATUS COLORS */
@@ -49,13 +49,13 @@
   --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
   /* CHANNEL COLORS */
-  --channel-normal: var(--interactive-normal); /* channel text color [default: var(--interactive-normal)] */
-  --channel-muted: var(--interactive-muted); /* muted channel text color [default: var(--interactive-muted)] */
-  --channel-hover: var(--interactive-hover); /* hovered channel text color [default: var(--interactive-hover)] */
+  --channel-normal: #ffcb6b; /* channel text color [default: var(--interactive-normal)] */
+  --channel-muted: #95f9c3; /* muted channel text color [default: var(--interactive-muted)] */
+  --channel-hover: #e9d022; /* hovered channel text color [default: var(--interactive-hover)] */
   --channel-selected: var(--interactive-active); /* selected channel text color [default: var(--interactive-active)] */
   --channel-selected-bg: var(--main-color); /* selected channel background [default: var(--main-color)] */
-  --channel-unread: var(--main-color); /* unread channel text color [default: var(--main-color)] */
-  --channel-unread-hover: var(--hover-color); /* unread channel hover color [default: var(--hover-color)] */
+  --channel-unread: #f7d486; /* unread channel text color [default: var(--main-color)] */
+  --channel-unread-hover: #e9d022; /* unread channel hover color [default: var(--hover-color)] */
   /* ACCESSIBILITY */
   --focus-color: var(--main-color); /* outline when pressing TAB key [default: var(--main-color)] */
 }
